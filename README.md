@@ -1,4 +1,3 @@
-```markdown
 # The limits of protected editing in hybrid resampling: A rigorous empirical analysis of density-aware oversampling under class overlap
 
 [![Status: Under Review](https://img.shields.io/badge/Status-Under_Review-blue.svg)]()
@@ -68,7 +67,5 @@ Rscript benchmark.R
 ```
 
 *Note: The full benchmark performs nested cross-validation across multiple classifiers, datasets, and oversampling grids. Execution may take several hours depending on available CPU threads. To run a fast validation check of the code environment, uncomment the `quick_main()` function at the bottom of the script.*
-
-```
 
 ```
