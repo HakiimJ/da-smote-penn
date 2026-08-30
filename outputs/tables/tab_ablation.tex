@@ -1,0 +1,23 @@
+\begin{table*}[htb]
+\centering
+\caption{Ablation analysis of the proposed pipeline (mean AUPRC).}
+\label{tab:ablation}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Variant & Density-aware allocation & Protected editing & Primary metric & Interpretation
+\\
+\midrule
+DA-SMOTE & Yes & No & 0.794 & effect of density awareness alone
+\\
+\textbf{DA-SMOTE-PENN} & Yes & Yes & 0.759 & full proposed pipeline
+\\
+PENN & No oversampling & Yes & 0.772 & cleaning-only ablation
+\\
+SMOTE & No & No & 0.795 & uniform oversampling baseline
+\\
+SMOTE-ENN & No & No (standard ENN) & 0.717 & effect of post-SMOTE cleaning
+\\
+\bottomrule
+\end{tabular}
+\end{table*}

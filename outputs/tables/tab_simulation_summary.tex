@@ -1,0 +1,33 @@
+\begin{table*}[htb]
+\centering
+\caption{Simulation summary across imbalance ratios (mean AUPRC).}
+\label{tab:simulation_summary}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Method & 5:995 & 10:990 & 100:900 & 200:800 & 500:500
+\\
+\midrule
+ADASYN & 0.984 & 0.985 & 0.951 & 0.946 & 0.945
+\\
+Baseline & 0.557 & 0.450 & 0.717 & 0.830 & 0.944
+\\
+Borderline-SMOTE & 0.982 & 0.870 & 0.879 & 0.925 & 0.946
+\\
+DA-SMOTE & 0.983 & 0.983 & 0.934 & 0.927 & 0.944
+\\
+\textbf{DA-SMOTE-PENN} & 0.188 & 0.204 & 0.627 & 0.774 & 0.903
+\\
+LD-SMOTE & 0.769 & 0.735 & 0.851 & 0.900 & 0.945
+\\
+PENN & 0.557 & 0.450 & 0.701 & 0.806 & 0.903
+\\
+SMOTE & 0.984 & 0.980 & 0.938 & 0.935 & 0.945
+\\
+SMOTE-ENN & 0.119 & 0.106 & 0.426 & 0.579 & 0.827
+\\
+SMOTE-Tomek & 0.661 & 0.500 & 0.800 & 0.868 & 0.916
+\\
+\bottomrule
+\end{tabular}
+\end{table*}

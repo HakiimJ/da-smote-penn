@@ -1,0 +1,21 @@
+\begin{table*}[htb]
+\centering
+\caption{Sensitivity analysis for DA-SMOTE-PENN parameters.}
+\label{tab:sensitivity}
+\small
+\begin{tabular}{lcccc}
+\toprule
+Parameter & Values examined & Best value & Robustness summary & Statistical note
+\\
+\midrule
+Target ratio $\alpha$ & 0.25, 0.5, 0.75, 1 & 0.500 & Stable across ratios & No sig. diff. among top 2
+\\
+Protection margin $\beta$ & 0, 0.05, 0.1, 0.15, 0.2, 0.25 & 0.000 & Higher beta protects boundary & Sig. improvement over beta=0
+\\
+$k_{\mathrm{SMOTE}}$ & 3, 5, 7 & 7.000 & k=5 optimal & Robust to $\pm 2$
+\\
+$k_{\mathrm{ENN}}$ & 3, 5, 7 & 5.000 & k=3 optimal & Robust to $\pm 2$
+\\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,33 @@
+\begin{table*}[htb]
+\centering
+\caption{Primary full-dimensional real-world benchmark (mean AUPRC).}
+\label{tab:main_realworld}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Method & k-NN & Logistic regression & RBF-SVM & Random forest & XGBoost
+\\
+\midrule
+ADASYN & 0.985 & 0.766 & 0.994 & 0.860 & 0.372
+\\
+Baseline & 0.869 & 0.778 & 1.000 & 0.860 & 0.372
+\\
+Borderline-SMOTE & 0.964 & 0.773 & 0.993 & 0.860 & 0.372
+\\
+DA-SMOTE & 0.978 & 0.766 & 0.995 & 0.860 & 0.372
+\\
+\textbf{DA-SMOTE-PENN} & 0.831 & 0.762 & 0.980 & 0.851 & 0.372
+\\
+LD-SMOTE & 0.969 & 0.772 & 0.980 & 0.860 & 0.372
+\\
+PENN & 0.852 & 0.778 & 0.999 & 0.858 & 0.372
+\\
+SMOTE & 0.979 & 0.772 & 0.994 & 0.860 & 0.372
+\\
+SMOTE-ENN & 0.706 & 0.753 & 0.959 & 0.793 & 0.372
+\\
+SMOTE-Tomek & 0.967 & 0.771 & 0.989 & 0.858 & 0.372
+\\
+\bottomrule
+\end{tabular}
+\end{table*}

@@ -1,0 +1,23 @@
+\begin{table*}[htb]
+\centering
+\caption{Runtime and practical trade-off summary.}
+\label{tab:runtime}
+\small
+\begin{tabular}{lccc}
+\toprule
+Method & Mean training time per fold & Relative runtime vs SMOTE-ENN & Practical note
+\\
+\midrule
+\textbf{DA-SMOTE-PENN} & 0.082 & 0.97\times & Justified by performance gains
+\\
+LD-SMOTE & 0.010 & 0.11\times & Higher due to density estimation
+\\
+SMOTE & 0.008 & 0.10\times & Fastest baseline
+\\
+SMOTE-ENN & 0.085 & 1.00\times & Standard hybrid baseline
+\\
+SMOTE-Tomek & 0.057 & 0.67\times & Moderate overhead
+\\
+\bottomrule
+\end{tabular}
+\end{table*}
