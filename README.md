@@ -1,9 +1,9 @@
-# Empirical guidelines for hybrid resampling]{Empirical guidelines for hybrid resampling: The hidden cost of minority protection under severe class imbalance
+# Empirical guidelines for hybrid resampling: The hidden cost of minority protection under severe class imbalance
 
 [![Status: Under Review](https://img.shields.io/badge/Status-Under_Review-blue.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the data and computational code necessary to fully replicate the analyses, simulations, and benchmarking tables presented in the working manuscript: **"Empirical guidelines for hybrid resampling]{Empirical guidelines for hybrid resampling: The hidden cost of minority protection under severe class imbalance"** by Ahmad Hakiim Jamaluddin and Nur Zafnazuhani Jailani.
+This repository contains the data and computational code necessary to fully replicate the analyses, simulations, and benchmarking tables presented in the working manuscript: **"Empirical guidelines for hybrid resampling: The hidden cost of minority protection under severe class imbalance"** by Ahmad Hakiim Jamaluddin and Nur Zafnazuhani Jailani.
 
 *Note: A permanent DOI will be minted via Zenodo upon the formal acceptance and publication of the manuscript.*
 
