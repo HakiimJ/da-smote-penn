@@ -6,8 +6,6 @@
 
 This repository contains the data and computational code necessary to fully replicate the analyses, simulations, and benchmarking tables presented in the working manuscript: **"Empirical guidelines for hybrid resampling: The hidden cost of minority protection under severe class imbalance"** by Ahmad Hakiim Jamaluddin and Nur Zafnazuhani Jailani.
 
-*Note: A permanent DOI will be minted via Zenodo upon the formal acceptance and publication of the manuscript.*
-
 ## Overview
 
 Hybrid resampling methods attempt to address class imbalance and class overlap simultaneously by combining minority oversampling with post-generation cleaning. A plausible assumption in this literature is that original minority boundary points should be protected during the cleaning stage to avoid the erosion of rare but informative samples. 
